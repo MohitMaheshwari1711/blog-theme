@@ -1,0 +1,172 @@
+[
+    {
+        "albumId": 1,
+        "id": 1,
+        "title": "Implementing animated toasts in React",
+        "subtitle": "Learn how to make a toast component with animations using React, Framer Motion, and Zustand",
+        "thumbnailUrl": "https://blog.logrocket.com/wp-content/uploads/2020/12/implementing-animated-toasts-react-nocdn.png",
+        "username": "Aditya Agarwal",
+        "userImage": "https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2019/04/adityaagarwal.jpg?resize=150%2C150&ssl=1",
+        "time": "Nov 19 2020",
+        "details": "A toast is a UI element that provides messages to a user in a non-interruptive manner. They usually pop up from the bottom of the screen and disappear after a short while. For the purposes of this post, let’s say we want to build toasts such that, on mount, they fade into the bottom right part of the screen. When we add another toast, the previous toast should animate up, and the new toast fades in at the end. We’ll use Framer Motion and React portals for this. We also want a feature to close all toasts together. For this, it’s good to have a central state management specifically for toasts. We’ll use Zustand for that. It also lets us do advanced stuff like setting limits on how many toasts can show up on screen and setting a default duration after which toasts should disappear. Implementing the advanced stuff is left as an exercise to the reader, though."
+      },
+      {
+        "albumId": 1,
+        "id": 2,
+        "title": "Rust cryptography libraries: A comprehensive list",
+        "subtitle": "",
+        "thumbnailUrl": "https://blog.logrocket.com/wp-content/uploads/2020/11/rust-cryptography-libraries-nocdn.png",
+        "username": "Ukpai Ugochi",
+        "userImage": "https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2019/04/adityaagarwal.jpg?resize=150%2C150&ssl=1",
+        "time": "Nov 17 2020",
+        "details": "A toast is a UI element that provides messages to a user in a non-interruptive manner. They usually pop up from the bottom of the screen and disappear after a short while. For the purposes of this post, let’s say we want to build toasts such that, on mount, they fade into the bottom right part of the screen. When we add another toast, the previous toast should animate up, and the new toast fades in at the end. We’ll use Framer Motion and React portals for this. We also want a feature to close all toasts together. For this, it’s good to have a central state management specifically for toasts. We’ll use Zustand for that. It also lets us do advanced stuff like setting limits on how many toasts can show up on screen and setting a default duration after which toasts should disappear. Implementing the advanced stuff is left as an exercise to the reader, though."
+      },
+      {
+        "albumId": 1,
+        "id": 3,
+        "title": "Rust cryptography libraries: A comprehensive list",
+        "subtitle": "",
+        "thumbnailUrl": "https://i1.wp.com/blog.logrocket.com/wp-content/uploads/2020/11/react-patterns-common-pitfalls-state-management.png?w=730&ssl=1",
+        "username": "Ukpai Ugochi",
+        "userImage": "https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2020/08/lawrenceo.jpg?resize=150%2C150&ssl=1",
+        "time": "Nov 16 2020",
+        "details": "Understanding how the useEffect Hook works is one of the most important concepts for mastering React today. If you have been working with React for several years, it is especially crucial to understand how working with useEffect differs from working with the lifecycle methods of class-based components. In fact, it is a wholesale shift in mindset. Fully understanding effects is a complex issue. As Dan Abramov of the React team stated, you might have to unlearn some things to fully grasp effects. With useEffect, you invoke side effects from within functional components, which is an important concept to understand in the React Hooks era. Working with the side effects invoked by the useEffect Hook may seem cumbersome at first, but you’ll eventually learn everything makes a lot of sense. The goal of this comprehensive article is to gather information about the underlying concepts of useEffect and, in addition, to provide learnings from my own experience with the useEffect Hook."
+      },
+      {
+        "albumId": 1,
+        "id": 4,
+        "title": "Rust cryptography libraries: A comprehensive list",
+        "subtitle": "",
+        "thumbnailUrl": "https://blog.logrocket.com/wp-content/uploads/2020/11/guide-to-react-useeffect-hook-nocdn.png",
+        "username": "Ukpai Ugochi",
+        "userImage": "https://i2.wp.com/blog.logrocket.com/wp-content/uploads/2020/03/sebastian-weber.jpeg?resize=150%2C150&ssl=1",
+        "time": "Nov 18 2020",
+        "details": "In React, a state is a plain JavaScript object that persists information about a component. States are akin to variables declared within a function. But while such variable disappear when the function exits, React persists state variables between renders. States hold information that affects the render() method; consequently, state changes trigger a render update. React states start with a default value when a component mounts and gets mutated throughout the component lifecycle. These state updates or mutations are often triggered by user-generated events. There are a number of ways to initialize state in React, but we will work with the useState Hook."
+      },
+      {
+        "albumId": 1,
+        "id": 5,
+        "title": "natus nisi omnis corporis facere molestiae rerum in",
+        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
+        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+      },
+      {
+        "albumId": 1,
+        "id": 6,
+        "title": "accusamus ea aliquid et amet sequi nemo",
+        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
+        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+      },
+      {
+        "albumId": 1,
+        "id": 7,
+        "title": "officia delectus consequatur vero aut veniam explicabo molestias",
+        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
+        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+      },
+      {
+        "albumId": 1,
+        "id": 8,
+        "title": "aut porro officiis laborum odit ea laudantium corporis",
+        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
+        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+      },
+      {
+        "albumId": 1,
+        "id": 9,
+        "title": "qui eius qui autem sed",
+        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
+        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+      },
+      {
+        "albumId": 1,
+        "id": 10,
+        "title": "beatae et provident et ut vel",
+        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
+        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+      },
+      {
+        "albumId": 1,
+        "id": 11,
+        "title": "nihil at amet non hic quia qui",
+        "url": "https://via.placeholder.com/600/1ee8a4",
+        "thumbnailUrl": "https://via.placeholder.com/150/1ee8a4"
+      },
+      {
+        "albumId": 1,
+        "id": 12,
+        "title": "mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores",
+        "url": "https://via.placeholder.com/600/66b7d2",
+        "thumbnailUrl": "https://via.placeholder.com/150/66b7d2"
+      },
+      {
+        "albumId": 1,
+        "id": 13,
+        "title": "repudiandae iusto deleniti rerum",
+        "url": "https://via.placeholder.com/600/197d29",
+        "thumbnailUrl": "https://via.placeholder.com/150/197d29"
+      },
+      {
+        "albumId": 1,
+        "id": 14,
+        "title": "est necessitatibus architecto ut laborum",
+        "url": "https://via.placeholder.com/600/61a65",
+        "thumbnailUrl": "https://via.placeholder.com/150/61a65"
+      },
+      {
+        "albumId": 1,
+        "id": 15,
+        "title": "harum dicta similique quis dolore earum ex qui",
+        "url": "https://via.placeholder.com/600/f9cee5",
+        "thumbnailUrl": "https://via.placeholder.com/150/f9cee5"
+      },
+      {
+        "albumId": 1,
+        "id": 16,
+        "title": "iusto sunt nobis quasi veritatis quas expedita voluptatum deserunt",
+        "url": "https://via.placeholder.com/600/fdf73e",
+        "thumbnailUrl": "https://via.placeholder.com/150/fdf73e"
+      },
+      {
+        "albumId": 1,
+        "id": 17,
+        "title": "natus doloribus necessitatibus ipsa",
+        "url": "https://via.placeholder.com/600/9c184f",
+        "thumbnailUrl": "https://via.placeholder.com/150/9c184f"
+      },
+      {
+        "albumId": 1,
+        "id": 18,
+        "title": "laboriosam odit nam necessitatibus et illum dolores reiciendis",
+        "url": "https://via.placeholder.com/600/1fe46f",
+        "thumbnailUrl": "https://via.placeholder.com/150/1fe46f"
+      },
+      {
+        "albumId": 1,
+        "id": 19,
+        "title": "perferendis nesciunt eveniet et optio a",
+        "url": "https://via.placeholder.com/600/56acb2",
+        "thumbnailUrl": "https://via.placeholder.com/150/56acb2"
+      },
+      {
+        "albumId": 1,
+        "id": 20,
+        "title": "assumenda voluptatem laboriosam enim consequatur veniam placeat reiciendis error",
+        "url": "https://via.placeholder.com/600/8985dc",
+        "thumbnailUrl": "https://via.placeholder.com/150/8985dc"
+      },
+      {
+        "albumId": 1,
+        "id": 21,
+        "title": "ad et natus qui",
+        "url": "https://via.placeholder.com/600/5e12c6",
+        "thumbnailUrl": "https://via.placeholder.com/150/5e12c6"
+      },
+      {
+        "albumId": 1,
+        "id": 22,
+        "title": "officia porro iure quia iusto qui ipsa ut modi",
+        "url": "https://via.placeholder.com/600/24f355",
+        "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+      }
+]
