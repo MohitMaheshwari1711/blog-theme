@@ -1,29 +1,55 @@
-import React from 'react';
-import './BlogDetails.css'
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+
+import db from '../../firebase';
+import getDate from '../Helper';
+import './BlogDetails.css';
+
 
 
 export default function BlogDetails() {
+
+    const { id } = useParams();
+    const [blogData, getBlogData] = useState({});
+
+    useEffect(() => {
+        db.collection("blogs").doc(id).get().then(
+            doc => {
+                getBlogData({
+                   ...doc.data(),
+                   date: doc.data().date.seconds 
+                })
+            }
+        )
+    }, [])
+
     return (
         <section className="features">
             <div className='blog-details'>
-                <div class="wrapper-details">
+                <div className="wrapper-details">
                     <div className='image-container-details'>
-                        <img src="https://i.kinja-img.com/gawker-media/image/upload/gd8ljenaeahpn0wslmlz.jpg" class="image--cover-details" />
+                        <img src={blogData.userImage} className="image--cover-details" />
                     </div>
                     <div style={{ display: 'grid' }}>
-                        <span className='username-details'>Mohit Maheshwari</span>
-                        <span className='date-details'>6 Dec, 2019</span>
+                        <span className='username-details'>{blogData.username}</span>
+                        {
+                            blogData.date && (
+                                <span className='date-details'>{getDate(blogData.date)}</span>
+                            )
+                        }
                     </div>
                 </div>
                 <div className='blog-container'>
                     <div style={{ width: '78%', marginLeft: 'auto', marginRight: 'auto' }}>
-                        <h1>Implementing animated toasts in React</h1>
-                        <h2>Learn how to make a toast component with animations using React, Framer Motion, and Zustand</h2>
+                        <h1>{blogData.title}</h1>
+                        {
+                            blogData.subtitle === "" ? <div style={{height: '1rem'}}></div> : <h2>{blogData.subtitle}</h2>
+                        }
                     </div>
                     <div>
-                        <img src='https://blog.logrocket.com/wp-content/uploads/2020/12/implementing-animated-toasts-react-nocdn.png' className='featured-image img-fluid' />
-                        <div style={{width: '78%', marginLeft: 'auto', marginRight: 'auto'}}>
-                            <p></p>
+                        <img src={blogData.thumbnailUrl} className='featured-image img-fluid' />
+                        <div style={{ width: '78%', marginLeft: 'auto', marginRight: 'auto' }}>
+                            <p>{blogData.details}</p>
                         </div>
                     </div>
                 </div>

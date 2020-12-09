@@ -66,12 +66,12 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-items: center;
-  height: 50px;
+  height: 70px;
   overflow: hidden;
 }
 
 .navbar img {
-  height: 16px;
+  height: 35px;
   width: auto;
   justify-self: start;
 }
@@ -102,7 +102,7 @@ h2 {
   margin-right: auto;
   height: 50vh;
   min-height: 350px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/jPLiQ-9/mountains-background-for-titles-intro-projects-and-etc_ew22rur3l__F0000.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(https://blog.logrocket.com/wp-content/uploads/2019/05/logrocket-blog.jpg);
   background-size: cover;
   display: flex;
   flex-direction: column;

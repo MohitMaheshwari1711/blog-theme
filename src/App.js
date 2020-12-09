@@ -19,7 +19,7 @@ function App() {
       <div className="page-wrapper">
         <div className="nav-wrapper">
           <nav className="navbar">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Bluestar_%28bus_company%29_logo.svg/1280px-Bluestar_%28bus_company%29_logo.svg.png" alt="Company Logo" />
+            <img src="https://blog.logrocket.com/wp-content/uploads/2020/01/logrocket-blog-logo.png" alt="Company Logo" />
             <div className="menu-toggle" id="mobile-menu">
               <span className="bar"></span>
               <span className="bar"></span>
@@ -32,10 +32,10 @@ function App() {
         </div>
         <Router>
           <Switch>
-            <Route path="/" exact='true'>
+            <Route path="/" exact>
               <Index />
             </Route>
-            <Route path="/details/:id" exact='true'>
+            <Route path="/details/:id" exact>
               <BlogDetails />
             </Route>
           </Switch>

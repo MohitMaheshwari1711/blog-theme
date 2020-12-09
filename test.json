@@ -17,59 +17,75 @@
         "subtitle": "",
         "thumbnailUrl": "https://blog.logrocket.com/wp-content/uploads/2020/11/rust-cryptography-libraries-nocdn.png",
         "username": "Ukpai Ugochi",
-        "userImage": "https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2019/04/adityaagarwal.jpg?resize=150%2C150&ssl=1",
-        "time": "Nov 17 2020",
-        "details": "A toast is a UI element that provides messages to a user in a non-interruptive manner. They usually pop up from the bottom of the screen and disappear after a short while. For the purposes of this post, let’s say we want to build toasts such that, on mount, they fade into the bottom right part of the screen. When we add another toast, the previous toast should animate up, and the new toast fades in at the end. We’ll use Framer Motion and React portals for this. We also want a feature to close all toasts together. For this, it’s good to have a central state management specifically for toasts. We’ll use Zustand for that. It also lets us do advanced stuff like setting limits on how many toasts can show up on screen and setting a default duration after which toasts should disappear. Implementing the advanced stuff is left as an exercise to the reader, though."
+        "userImage": "https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2020/10/original.png?resize=128%2C128&ssl=1",
+        "time": "Nov 18 2020",
+        "details": "Cryptography is the process of transforming information into a secure format, mostly by encryption. Encryption ensures that data passing through the web is safe and reliable. Although Rust has a random number generator, the main suite in use today is OpenSSL. As you’ll see in this guide, the Rust ecosystem offers an expansive range of rich-featured cryptography libraries to help you keep data safe in transit to and from your applications."
       },
       {
         "albumId": 1,
         "id": 3,
-        "title": "Rust cryptography libraries: A comprehensive list",
+        "title": "React patterns to avoid common pitfalls in local state management",
         "subtitle": "",
         "thumbnailUrl": "https://i1.wp.com/blog.logrocket.com/wp-content/uploads/2020/11/react-patterns-common-pitfalls-state-management.png?w=730&ssl=1",
-        "username": "Ukpai Ugochi",
+        "username": "Lawrence Oputa",
         "userImage": "https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2020/08/lawrenceo.jpg?resize=150%2C150&ssl=1",
-        "time": "Nov 16 2020",
-        "details": "Understanding how the useEffect Hook works is one of the most important concepts for mastering React today. If you have been working with React for several years, it is especially crucial to understand how working with useEffect differs from working with the lifecycle methods of class-based components. In fact, it is a wholesale shift in mindset. Fully understanding effects is a complex issue. As Dan Abramov of the React team stated, you might have to unlearn some things to fully grasp effects. With useEffect, you invoke side effects from within functional components, which is an important concept to understand in the React Hooks era. Working with the side effects invoked by the useEffect Hook may seem cumbersome at first, but you’ll eventually learn everything makes a lot of sense. The goal of this comprehensive article is to gather information about the underlying concepts of useEffect and, in addition, to provide learnings from my own experience with the useEffect Hook."
+        "time": "Nov 17 2020",
+        "details": "In React, a state is a plain JavaScript object that persists information about a component. States are akin to variables declared within a function. But while such variable disappear when the function exits, React persists state variables between renders. States hold information that affects the render() method; consequently, state changes trigger a render update. React states start with a default value when a component mounts and gets mutated throughout the component lifecycle. These state updates or mutations are often triggered by user-generated events. There are a number of ways to initialize state in React, but we will work with the useState Hook"
       },
       {
         "albumId": 1,
         "id": 4,
-        "title": "Rust cryptography libraries: A comprehensive list",
+        "title": "The last guide to the useEffect Hook you’ll ever need",
         "subtitle": "",
         "thumbnailUrl": "https://blog.logrocket.com/wp-content/uploads/2020/11/guide-to-react-useeffect-hook-nocdn.png",
-        "username": "Ukpai Ugochi",
+        "username": "Sebastian Weber",
         "userImage": "https://i2.wp.com/blog.logrocket.com/wp-content/uploads/2020/03/sebastian-weber.jpeg?resize=150%2C150&ssl=1",
-        "time": "Nov 18 2020",
-        "details": "In React, a state is a plain JavaScript object that persists information about a component. States are akin to variables declared within a function. But while such variable disappear when the function exits, React persists state variables between renders. States hold information that affects the render() method; consequently, state changes trigger a render update. React states start with a default value when a component mounts and gets mutated throughout the component lifecycle. These state updates or mutations are often triggered by user-generated events. There are a number of ways to initialize state in React, but we will work with the useState Hook."
+        "time": "Nov 16 2020",
+        "details": "Understanding how the useEffect Hook works is one of the most important concepts for mastering React today. If you have been working with React for several years, it is especially crucial to understand how working with useEffect differs from working with the lifecycle methods of class-based components. In fact, it is a wholesale shift in mindset! Fully understanding effects is a complex issue. As Dan Abramov of the React team stated, you might have to unlearn some things to fully grasp effects. With useEffect, you invoke side effects from within functional components, which is an important concept to understand in the React Hooks era. Working with the side effects invoked by the useEffect Hook may seem cumbersome at first, but you’ll eventually learn everything makes a lot of sense. The goal of this comprehensive article is to gather information about the underlying concepts of useEffect and, in addition, to provide learnings from my own experience with the useEffect Hook. For example, now that I have dealt with useEffect for quite some time, I have realized that it is key to fully understand the component flow of functional components. As such, this aspect is an important topic in this article. I aim to provide a guide that both newbies and experienced React developers will find valuable and informative. Throughout the article, I provide many code examples to explain crucial concepts. These code snippets are part of my companion GitHub project."
       },
       {
         "albumId": 1,
         "id": 5,
-        "title": "natus nisi omnis corporis facere molestiae rerum in",
-        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
-        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+        "title": "Announcing LogRocket Issue Management",
+        "subtitle": "",
+        "thumbnailUrl": "https://blog.logrocket.com/wp-content/uploads/2020/10/announcing-logrocket-issue-management-nocdn.png",
+        "username": "Ben Edelstein",
+        "userImage": "https://secure.gravatar.com/avatar/95ef7f60585d570f92c412403e7f87ef?s=72&d=mm&r=g",
+        "time": "Nov 15 2020",
+        "details": "Understanding problems in web apps is hard. Mysterious JavaScript errors, slow performance, user-reported bugs, and vague UX issues can frustrate users and monopolize developer time. And these are just the obvious issues — most bugs are never actually reported since users who have a bad experience just leave or suffer in silence. LogRocket’s Issue Management solves these problems by providing an easy-to-use dashboard that visualizes the health of your frontend application. Think of it like an inbox where issues are surfaced and tagged, with a powerful rules engine that automatically categorizes issues based on how impactful they are for your users."
       },
       {
         "albumId": 1,
         "id": 6,
-        "title": "accusamus ea aliquid et amet sequi nemo",
-        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
-        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+        "title": "Speed up your React app with dynamic imports and route-centric code splitting",
+        "subtitle": "",
+        "thumbnailUrl": "https://blog.logrocket.com/wp-content/uploads/2020/10/react-code-splitting-nocdn.png",
+        "username": "Ben Edelstein",
+        "userImage": "https://i0.wp.com/blog.logrocket.com/wp-content/uploads/2020/08/lawrenceo.jpg?resize=150%2C150&ssl=1",
+        "time": "Nov 14 2020",
+        "details": "Performance optimization is a critical software development milestone every developer deals with: having invested quality time into writing great code, adding features, enduring protracted debugging sections, and finally, finishing our masterpieces, we then pick our favorite hosting service and deploy the application to the cloud. But once we try to host and navigate the application, we immediately notice the load time is high — meaning the app is incredibly slow. At this point, we’ve reached the performance optimization milestone. While developing on our local host, we hardly face any performance issues, but that’s because there’s a difference between production and development. While developing on a local server, all our files are hosted from our computer’s port. In React, the port is set to 3000 by default. Because internet connection doesn’t matter while we’re using the local server, we can download all our files and JavaScript bundles incredibly quickly."
       },
       {
         "albumId": 1,
         "id": 7,
-        "title": "officia delectus consequatur vero aut veniam explicabo molestias",
-        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
-        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+        "title": "How to improve interface responsiveness with Web Workers",
+        "subtitle": "",
+        "thumbnailUrl": "https://blog.logrocket.com/wp-content/uploads/2020/10/improve-interface-responsiveness-web-workers-api-nocdn.png",
+        "username": "Ben Edelstein",
+        "userImage": "https://i1.wp.com/blog.logrocket.com/wp-content/uploads/2019/08/danny-guo.jpeg?resize=150%2C150&ssl=1",
+        "time": "Nov 13 2020",
+        "details": "JavaScript is single-threaded, so any JavaScript that runs also stops webpages from being responsive. This isn’t a problem in many cases because the code runs quickly enough that any UI stutter is effectively imperceptible by the user. However, it can become a significant problem if the code is computationally expensive or if the user’s hardware is underpowered."
       },
       {
         "albumId": 1,
         "id": 8,
-        "title": "aut porro officiis laborum odit ea laudantium corporis",
-        "url": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png",
-        "thumbnailUrl": "https://cdn-images-1.medium.com/max/2000/1*HFAEJvVOq4AwFuBivNu_OQ.png"
+        "title": "Using Tailwind CSS in production",
+        "subtitle": "Practical steps to reducing your CSS bundle size",
+        "thumbnailUrl": "https://blog.logrocket.com/wp-content/uploads/2020/10/tailwind-css-production-today-nocdn.png",
+        "username": "Anjolaoluwa Adebayo-Oyetoro ",
+        "userImage": "https://i2.wp.com/blog.logrocket.com/wp-content/uploads/2019/07/jolaadebayo.jpg?resize=150%2C150&ssl=1",
+        "time": "Nov 12 2020",
+        "details": "To understand what a bundle size means, we have to understand what bundling is. Bundling is the process of a bundler(like webpack, parcel, or snowpack) to combine different groups of assets such as HTML, CSS, JavaScript, and images to produce a smaller file known as a bundle. Bundling is necessary to reduce the number of HTTP requests the browser has to make to serve content to users. Bundle size is the size of any generated bundle and it affects how long it takes for our websites and web apps to load. In this article, we’ll be exploring how to reduce our Tailwind CSS powered app bundle size by tree-shaking Tailwind CSS, we will also learn how to use PurgeCSS with Tailwind in production, we will explore how to do that in JavaScript frameworks such as Vue and React."
       },
       {
         "albumId": 1,
