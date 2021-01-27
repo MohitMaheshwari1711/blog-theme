@@ -3,6 +3,7 @@ import ReactPaginate from 'react-paginate';
 
 import './Paginator.css';
 
+
 export default function Paginator({ onPageChange, pageCount }) {
     return (
         <React.Fragment>

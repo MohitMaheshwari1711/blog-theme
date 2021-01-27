@@ -25,7 +25,11 @@ function Index() {
                         ...doc.data()
                     }
                 });
-                console.log(data)
+                data.sort(
+                    (a, b) => {
+                        return new Date(b.date.seconds) - new Date(a.date.seconds)
+                    }
+                )
                 let pageCount = Math.ceil(data.length / perPage);
                 let slicedData = data.slice(offset, offset + perPage);
                 changepageInfo({
@@ -58,7 +62,7 @@ function Index() {
                 {
                     pageInfo.slicedBlog ? pageInfo.slicedBlog.map(
                         blog => <React.Fragment key={blog.id}>
-                            <Card title={blog.title} userImage={blog.userImage} thumbnailUrl={blog.thumbnailUrl} subtitle={blog.subtitle} date={blog.date} id={blog.id} details={blog.details} username={blog.username} />
+                            <Card title={blog.title} userImage={blog.userImage} thumbnailUrl={blog.thumbnailUrl} subtitle={blog.subtitle} date={blog.date} id={blog.id} details={blog.details[0]} username={blog.username} />
                         </React.Fragment>
                     ) : <p>The content is being loaded</p>
                 }

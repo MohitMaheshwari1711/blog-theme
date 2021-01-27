@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import getDate from '../Helper';
 import './Card.css';
@@ -13,9 +13,9 @@ export default function Card({ title, userImage, thumbnailUrl, date, details, us
 
 
     return (
-            <Link className="feature-container" to={{ pathname: `/details/${id}` }} style={{textDecoration: 'none'}}>
+            <NavLink className="feature-container" to={{ pathname: `/details/${id}` }} style={{textDecoration: 'none'}}>
                 <img src={thumbnailUrl} alt="Flexbox Feature" />
-                <div style={{ width: '10%' }}>
+                    <div style={{ width: '10%' }}>
 
                 </div>
                 <div style={{ width: '60%' }}>
@@ -24,14 +24,14 @@ export default function Card({ title, userImage, thumbnailUrl, date, details, us
                         <p>{truncate(details)}</p>
                     </div>
                     <div className="wrapper">
-                        <img src={userImage} className="image--cover" />
+                        <img src={userImage} className="image--cover" alt='...' />
                         <div style={{ display: 'grid' }}>
                             <span className='username'>{username}</span>
                             <span className='date'>{getDate(date.seconds)}</span>
                         </div>
                     </div>
                 </div>
-            </Link >
+            </NavLink >
     )
 }
 

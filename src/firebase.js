@@ -3,6 +3,7 @@ import firebase from 'firebase';
 var firebaseConfig = {
     apiKey: "AIzaSyBoUWbuq2Hvxx3s-GZ8irMyJQPJkhAw6N8",
     authDomain: "blog-theme-39147.firebaseapp.com",
+    databaseURL: "https://blog-theme-39147-default-rtdb.firebaseio.com",
     projectId: "blog-theme-39147",
     storageBucket: "blog-theme-39147.appspot.com",
     messagingSenderId: "561402794188",

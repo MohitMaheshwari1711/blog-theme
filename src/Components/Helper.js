@@ -28,7 +28,6 @@ const monthName = (num) => {
 
 
 const getDate = (seconds) => {
-    console.log(seconds)
     let milliseconds = seconds * 1000;
     return `${new Date(milliseconds).getDate()} ${monthName(new Date(milliseconds).getMonth())}, ${new Date(milliseconds).getFullYear()}`
 }
